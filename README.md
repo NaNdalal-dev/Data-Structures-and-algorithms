@@ -1,7 +1,7 @@
 <h2> Data-Structures-and-algorithms </h2>
 
 <h3>
-References taken from <a href="https://www.youtube.com/channel/UCZCFT11CWBi3MHNlGf019nw/featured">Abdul Bari</a>
+References taken from <a href="https://www.youtube.com/channel/UCZCFT11CWBi3MHNlGf019nw/featured">Abdul Bari</a> youtube channel
 </h3>
 
 <h4>For loop time complexity analysis</h4>
