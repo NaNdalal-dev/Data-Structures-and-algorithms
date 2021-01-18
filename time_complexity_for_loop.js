@@ -140,5 +140,3 @@ function case9(n){
 	console.log('steps taken:',step)
 	console.log('Time complexity:',Math.ceil(n*Math.log2(n)))
 }
-
-
