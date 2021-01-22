@@ -21,5 +21,5 @@ References taken from <a href="https://www.youtube.com/channel/UCZCFT11CWBi3MHNl
 <a href="https://www.youtube.com/watch?v=1K9ebQJosvo">Part 10</a><br>
 
 <h4>Binary Search:</h4>
-<a href="https://www.youtube.com/watch?v=C2apEw9pgtw">Iterative Binary Search</a>
+<a href="https://www.youtube.com/watch?v=C2apEw9pgtw">Iterative Binary Search</a><br>
 <a href="https://www.youtube.com/watch?v=uEUXGcc2VXM">Recursive Binary Search</a>
