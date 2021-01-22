@@ -31,5 +31,3 @@ function RecursiveBinarySearch(arr,srh_val,low,high){
 	console.log('Steps taken:'+step)
 
 }
-
-RecursiveBinarySearch([1,2,3,4,5],90,0,4)
