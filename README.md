@@ -18,7 +18,7 @@ References taken from <a href="https://www.youtube.com/channel/UCZCFT11CWBi3MHNl
 <a href="https://www.youtube.com/watch?v=8gt0D0IqU5w">Part 7: T(n / 2) + 1</a><br>
 <a href="https://www.youtube.com/watch?v=XcZw01FuH18">Part 8: T(n / 2) + n</a><br>
 <a href="https://www.youtube.com/watch?v=1K9ebQJosvo">Part 9: 2T(n / 2) + n</a><br>
-<a href="https://www.youtube.com/watch?v=9rVujxzwgM">Part 10: T(n) = T(sqrt(n)) + 1 = O(log(logn))</a><br>
+<a href="https://www.youtube.com/watch?v=9rVuyjxzwgM">Part 10: T(n) = T(sqrt(n)) + 1 = O(log(logn))</a><br>
 
 <h4>Binary Search:</h4>
 <a href="https://www.youtube.com/watch?v=C2apEw9pgtw">Iterative Binary Search</a><br>
