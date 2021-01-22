@@ -12,6 +12,8 @@ Case 4: T(n) = 2T(n-1) + 1 = O(2^n)
 Case 5: T(n) = T(n / 2) + 1 = O(logn)
 
 Case 6: T(n) = T(n / 2) + n = O(n)
+
+Case 7: T(n) = T(sqrt(n)) + 1 = O(log(logn)) #base = 2
 */
 // CASE 1
 function case1(n){
@@ -71,6 +73,15 @@ function case6(n){
 			console.log(n)
 		}
 		case6(n/2)
+	}
+}
+
+//CASE 7
+function case7(n){
+
+	if(n>2){
+		console.log(n)
+		case7(Math.sqrt(n).toFixed(2))
 	}
 }
 
