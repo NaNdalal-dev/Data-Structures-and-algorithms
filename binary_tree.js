@@ -56,11 +56,3 @@ class BinaryTree{
 		return false
 	}
 }
-
-bt =new BinaryTree([1,2,3,4,5,6,7])
-
-//console.log(bt.getLeftchild(1))
-//console.log(bt.getRightChild(1))
-
-//console.log(bt.getHeight())
-console.log(bt.isFull())
