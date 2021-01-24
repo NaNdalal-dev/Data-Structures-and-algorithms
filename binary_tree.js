@@ -71,9 +71,3 @@ class BinaryTree{
 		return false
 	}
 }
-
-arr=[10,20,30,40,50,60,70,80,90,100]
-
-bt = new BinaryTree(arr)
-bt.getParents(100)
-console.log(bt.parents)
