@@ -6,6 +6,8 @@ class BinaryTree{
 		this.arr = arr
 		this.length = arr.length
 
+		this.parents = []
+
 	}
 
 	getParent(val){
@@ -14,6 +16,9 @@ class BinaryTree{
 			parent = arr[i/2] #take floor value of i/2
 		*/
 		this.index = this.arr.indexOf(val)
+		if(this.index %2 == 0){
+		return this.arr[Math.floor(this.index/2)-1]
+		}
 		return this.arr[Math.floor(this.index/2)]
 	}
 
@@ -45,6 +50,16 @@ class BinaryTree{
 		return Math.floor(Math.log2(this.length))
 	}
 
+	getParents(val){
+		if(val>0){
+		this.par = this.getParent(val)
+			if(this.par){
+			this.parents.push(this.par)
+			}
+		this.getParents(Math.floor(this.par))
+		}
+	}
+
 	isFull(){
 		//Formula to know binary full tree 
 		/*
@@ -56,3 +71,9 @@ class BinaryTree{
 		return false
 	}
 }
+
+arr=[10,20,30,40,50,60,70,80,90,100]
+
+bt = new BinaryTree(arr)
+bt.getParents(100)
+console.log(bt.parents)
